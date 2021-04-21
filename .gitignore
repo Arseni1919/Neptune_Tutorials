@@ -1,33 +1,3 @@
-Skip to content
-Why GitHub?
-Team
-Enterprise
-Explore
-Marketplace
-Pricing
-Search
-
-Sign in
-Sign up
-Arseni1919
-/
-GVG_and_MPF_and_RRT
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-GVG_and_MPF_and_RRT/.gitignore
-@Arseni1919
-Arseni1919 first
-Latest commit 909035f 7 days ago
- History
- 1 contributor
-267 lines (211 sloc)  4.57 KB
-
 # .gitignore
 __pycache__
 venv
@@ -35,6 +5,7 @@ env
 .pytest_cache
 .coverage
 .idea
+.neptune
 lightning_logs
 .ckpt
 example.ckpt
