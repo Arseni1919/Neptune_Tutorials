@@ -10,7 +10,11 @@ import seaborn as sns
 
 
 run = neptune.init(project='1919ars/Neptune-Tutorials', tags=['tutorials', 'try'],
-                   name='BlaBliBlu')
+                   name='BlaBliBlu',
+                   source_files=[],
+                   # source_files='example_source_file.py'
+                   # source_files=['example_source_file.py', 'main.py']
+                   )
 
 PARAMS = {'epoch_nr': 100,
           'lr': 0.005,
@@ -59,7 +63,7 @@ for i in list(range(10)):
     run['train/acc'].log(x_2)
     run['train/acc2'].log(x_3)
     run['misclasified1'].log(File('fig1.png'))  # supported only for images
-    time.sleep(5)
+    time.sleep(1)
 
 
 def print_hi(name):
