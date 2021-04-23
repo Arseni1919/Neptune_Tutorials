@@ -63,6 +63,7 @@ for i in list(range(10)):
     run['train/acc'].log(x_2)
     run['train/acc2'].log(x_3)
     run['misclasified1'].log(File('fig1.png'))  # supported only for images
+    run['x-axis'].log(x_1, i*10)
     time.sleep(1)
 
 
