@@ -1,11 +1,12 @@
-# Learning Neptune.ai Together
+# Learning Gradio.app Together
+
+> Generate an easy-to-use UI for your ML model, function, or API with only a few lines of code.
+> Integrate directly into your Python notebook, or share a link with anyone.
 
 ## Useful Links
-- [How to Keep Track of PyTorch Lightning Experiments with Neptune](https://neptune.ai/blog/pytorch-lightning-neptune-integration)
-- [Neptune API tour (Google Colab)](https://colab.research.google.com/github/neptune-ai/neptune-colab-examples/blob/master/product-tours/how-it-works/showcase/Neptune-API-Tour.ipynb)
-- [A Complete Guide to Monitoring ML Experiments Live in Neptune (there is plotly example)](https://neptune.ai/blog/monitoring-machine-learning-experiments-guide)
-- [ML Experiment Tracking: What It Is, Why It Matters, and How to Implement It](https://neptune.ai/blog/ml-experiment-tracking)
-- [Migrating to neptune.new](https://docs.neptune.ai/migration-guide)
-- [Neptune API](https://docs.neptune.ai/api-reference/neptune)
+- [Getting Started](https://www.gradio.app/getting_started)
+- [Docs](https://www.gradio.app/docs)
+- []()
+
 
 
